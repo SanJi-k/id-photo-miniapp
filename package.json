@@ -1,0 +1,42 @@
+{
+  "name": "id-photo-miniapp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "一键生成标准证件照小程序",
+  "scripts": {
+    "build:weapp": "taro build --type weapp",
+    "dev:weapp": "taro build --type weapp --watch",
+    "build:h5": "taro build --type h5",
+    "dev:h5": "taro build --type h5 --watch"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.24.0",
+    "@tarojs/components": "^4.0.0",
+    "@tarojs/helper": "^4.0.0",
+    "@tarojs/plugin-framework-react": "^4.0.0",
+    "@tarojs/plugin-platform-alipay": "^4.0.0",
+    "@tarojs/plugin-platform-h5": "^4.0.0",
+    "@tarojs/plugin-platform-tt": "^4.0.0",
+    "@tarojs/plugin-platform-weapp": "^4.0.0",
+    "@tarojs/react": "^4.0.0",
+    "@tarojs/runtime": "^4.0.0",
+    "@tarojs/shared": "^4.0.0",
+    "@tarojs/taro": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-react": "^7.24.0",
+    "@tarojs/cli": "^4.0.0",
+    "@tarojs/taro-loader": "^4.0.0",
+    "@tarojs/webpack5-runner": "^4.0.0",
+    "@types/react": "^18.2.0",
+    "@types/webpack-env": "^1.18.0",
+    "babel-preset-taro": "^4.0.0",
+    "less": "^4.2.0",
+    "typescript": "^5.4.0",
+    "webpack": "5.91.0"
+  },
+  "packageManager": "pnpm@9.0.0"
+}
